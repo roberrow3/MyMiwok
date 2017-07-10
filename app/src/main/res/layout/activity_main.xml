@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.mymiwok.MainActivity">
+
+    <TextView
+        android:id="@+id/calender"
+        style="@style/CategoryStyle"
+        android:background="#00ff00"
+        android:text="Calender" />
+
+    <TextView
+        android:id="@+id/colours"
+        style="@style/CategoryStyle"
+        android:background="#efcf6e"
+        android:text="Colours" />
+
+    <TextView
+        android:id="@+id/family"
+        style="@style/CategoryStyle"
+        android:background="#ff0000"
+        android:text="Family" />
+
+
+
+
+    <TextView
+        android:id="@+id/numbers"
+        style="@style/CategoryStyle"
+        android:background="#3399ff"
+        android:text="Numbers"
+        />
+
+
+
+
+
+</LinearLayout>
